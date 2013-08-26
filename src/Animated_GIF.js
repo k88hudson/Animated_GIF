@@ -241,7 +241,7 @@ function Animated_GIF(options) {
 }
 
 if(define) {
-    define([], function() {
+    define(['./omggif', './quantizer'], function() {
         return Animated_GIF;
     });
 }
