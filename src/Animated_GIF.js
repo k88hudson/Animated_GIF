@@ -241,7 +241,7 @@ function Animated_GIF(options) {
 }
 
 if(define) {
-    define(['./omggif', './quantizer'], function() {
+    define(['Animated_GIF/src/NeuQuant', 'Animated_GIF/src/omggif'], function() {
         return Animated_GIF;
     });
 }
